@@ -214,7 +214,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>🗓️ Google Takvim Etkinlikleri</h1>
+        <h1>🗓️Etkinlik İşlem Takvimi</h1>
 
         <div class="menu">
             <button class="red" data-color="11">❌ İşleme Alınmamış</button>
@@ -266,7 +266,7 @@
         // Etkinlikleri yükle
         async function loadEvents() {
             try {
-                document.getElementById('eventCount').innerHTML = '⏳ <span class="loading-spinner"></span> Google Takvim\'den etkinlikler yükleniyor...';
+                document.getElementById('eventCount').innerHTML = '⏳ <span class="loading-spinner"></span> Etkinlik Bilgileri yükleniyor...';
                 
                 const data = await loadEventsWithJsonp();
                 
